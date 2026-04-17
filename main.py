@@ -13,7 +13,7 @@ def calculate():
 
     operation = data.get("operation")
     a = float(data.get("a", 0))
-    b = data.get("b", 0))
+    b = data.get("b", 0)
 
     try:
         if operation == "add":
